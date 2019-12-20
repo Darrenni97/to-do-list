@@ -3,6 +3,8 @@ import Header from "./components/layout/Header";
 import Todos from "./components/Todos";
 import AddTodo from "./components/AddTodo";
 
+import "./App.css";
+
 class App extends Component {
   state = {
     todos: [
